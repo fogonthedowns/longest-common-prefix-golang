@@ -1,0 +1,12 @@
+Longest Common Prefix
+
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+
+
+Horizontal scanning
+time and space O(S) - sum of all chars, O(1)
