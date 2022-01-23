@@ -8,10 +8,10 @@ func longestCommonPrefix(strs []string) string {
 	}
 
 	var prefix string
-	str := strs[0]
+	word := strs[0]
 
-	for i := 0; i < len(str); i++ {
-		prefix = string(str[:i+1])
+	for i := 0; i < len(word); i++ {
+		prefix = string(word[:i+1])
 		for _, s := range strs {
 			if !strings.HasPrefix(s, prefix) {
 				// remove 1 from the end
